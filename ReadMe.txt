@@ -1,7 +1,7 @@
 *Vorwort:*
 Alle verwendeten URLs wurden mit der Datei: "robots.txt" überprüft und erlauben das Web Crawler/Scraping verwendet wird.
 
--------------------------------------------
+------------------------------------------
 
                                 >SCRAPING AKTIEN<
 Mein Projekt besteht aus zwei Codes, welche entwickelt wurden, um Aktienkursen und Aktiennamen von den angegebenen URLs zu scrapen und diese in die jeweiligen Excel-Dateien einzutragen.
