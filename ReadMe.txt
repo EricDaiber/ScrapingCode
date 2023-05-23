@@ -30,7 +30,7 @@ Wie zuvor wird Mithilfe der Module "request" und "BeautifulSoup" die HTML Inhalt
 
 Vor der Eintragung in die Excel wird geprüft, ob die ausgefilterten Daten tatsächlich Zahlen sind, um sicherzustellen, dass es sich um die gewünschten Aktienkurse handelt.
 
-Falls diese Überprüfung erfolgreich ist, werden die Aktienkurse in die Excel übertragen und die Excel wird unter dem Namen 'Aktuelle Daten.xlsx' gespeichert. Falls nicht, wird eine Fehlermeldung ausgegeben und der Vorgang wird beendet. 
+Falls diese Überprüfung erfolgreich ist, werden die Aktienkurse in die Excel übertragen und die Excel wird unter dem Namen 'Aktuelle Daten.xlsx' gespeichert. 
 
 .......
                             -2. Scraping ROI Berechnung.ipynb-
@@ -42,7 +42,7 @@ Nach der Eingabe des Dateipfad wird dieser überprüft. Falls es wieder scheiter
 
 Im nächsten Schritt wird das entsprechende Excel-Blatt mit dem Namen "Top 3 Aktien" ausgewählt. Mit Hilfe der Module "request" und "BeautifulSoup" werden die HTML-Inhalte aus den URLs ausgelesen, um die aktuellen Aktienkurse auszufiltern. Vor der Eintragung in die Excel wird geprüft, ob die ausgefilterten Daten Zahlen sind, um sicherzustellen, dass es sich tatsächlich um die Aktienkurse handelt. 
 
-Falls diese Überprüfung erfolgreich ist, werden die Aktienkurse in die Excel übertragen. Anhand dieser Daten wird dann eine "Return-on-Investment" Berechnung durchgeführt. Wenn die Überprüfung nicht erfolgreich ist, wird eine Fehlermeldung ausgegeben und der Vorgang endet. 
+Falls diese Überprüfung erfolgreich ist, werden die Aktienkurse in die Excel übertragen. Anhand dieser Daten wird dann eine "Return-on-Investment" Berechnung durchgeführt.
 
 Mit dem Modul "datetime.datetime.now().date()" wird das aktuelle Datum erfasst und on die Excel-Zelle "D13" eingetragen.
 
